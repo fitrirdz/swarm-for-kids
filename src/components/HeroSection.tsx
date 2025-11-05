@@ -1,17 +1,22 @@
 import React from 'react'
+import RocketIcon from '../assets/RocketLaunch.svg';
 
 const HeroSection = () => {
   return (
     <section className="flex flex-col md:flex-row items-center justify-between py-20 max-w-7xl mx-auto px-6 gap-10">
       <div className="flex-1 space-y-6">
-        <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+        <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
           Discover Digital Art & Collect NFTs
         </h1>
         <p className="text-gray-400">
           NFT marketplace UI created with Anima for Figma. Collect, buy, and sell art from more than 20k NFT artists.
         </p>
-        {/* hover: shrink a bit */}
-        <button className="bg-primary-purple text-white font-semibold py-4 px-12 rounded-2xl hover:scale-90 transition-transform duration-300">
+        <button className="bg-primary-purple text-white font-semibold py-4 px-12 rounded-2xl hover:scale-95 transition-transform duration-300">
+           <img
+          src={RocketIcon}
+          alt='Get Started Icon'
+          className='inline-block w-4 h-4 mr-2'
+        />
           Get Started
         </button>
         <div className="flex gap-6 pt-4">

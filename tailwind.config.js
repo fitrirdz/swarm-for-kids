@@ -8,6 +8,10 @@ export default {
     extend: {
       colors: {
         'primary-purple': '#A259FF',
+        'primary-black': '#2B2B2B',
+      },
+      fontFamily: {
+        'sans': ['Work Sans', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       },
     },
   },

@@ -12,7 +12,7 @@ import Newsletter from './components/NewsLetter';
 
 export default function App() {
   return (
-    <div className="bg-[#141416] text-white min-h-screen font-inter">
+    <div className="bg-primary-black text-white min-h-screen w-screen font-inter">
       {/* Navigation */}
       <Navbar />
 

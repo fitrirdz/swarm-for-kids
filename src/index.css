@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Set Work Sans as the default font family */
+@layer base {
+  * {
+    font-family: 'Work Sans', ui-sans-serif, system-ui, sans-serif;
+  }
+}
+
 a {
   font-weight: 500;
   color: #646cff;
