@@ -10,7 +10,8 @@ const HeroSection = () => {
         <p className="text-gray-400">
           NFT marketplace UI created with Anima for Figma. Collect, buy, and sell art from more than 20k NFT artists.
         </p>
-        <button className="bg-gradient-to-r from-purple-500 to-blue-500 px-6 py-3 rounded-xl font-semibold">
+        {/* hover: shrink a bit */}
+        <button className="bg-primary-purple text-white font-semibold py-4 px-12 rounded-2xl hover:scale-90 transition-transform duration-300">
           Get Started
         </button>
         <div className="flex gap-6 pt-4">
