@@ -18,10 +18,10 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className='hidden lg:flex justify-between items-center gap-8'>
-          <ul className='flex gap-8 text-gray-300'>
-            <li className='hover:text-white cursor-pointer transition-colors'>Marketplace</li>
-            <li className='hover:text-white cursor-pointer transition-colors'>Rankings</li>
-            <li className='hover:text-white cursor-pointer transition-colors'>Connect a wallet</li>
+          <ul className='flex gap-8 text-white font-medium'>
+            <li className='hover:scale-95 transition-transform cursor-pointer'>Marketplace</li>
+            <li className='hover:scale-95 transition-transform cursor-pointer'>Rankings</li>
+            <li className='hover:scale-95 transition-transform cursor-pointer'>Connect a wallet</li>
           </ul>
 
           <button className='bg-primary-purple px-4 py-2 rounded-lg font-semibold hover:scale-95 transition-transform'>
@@ -66,19 +66,19 @@ const Navbar = () => {
               </div>
 
               {/* Mobile Menu Items */}
-              <ul className='space-y-6 text-gray-300 mb-8'>
+              <ul className='space-y-6 mb-8'>
                 <li>
-                  <a href='#' className='block text-lg hover:text-white transition-colors py-2'>
+                  <a href='#' className='block text-white text-lg hover:scale-95 transition-transform py-2'>
                     Marketplace
                   </a>
                 </li>
                 <li>
-                  <a href='#' className='block text-lg hover:text-white transition-colors py-2'>
+                  <a href='#' className='block text-white text-lg hover:scale-95 transition-transform py-2'>
                     Rankings
                   </a>
                 </li>
                 <li>
-                  <a href='#' className='block text-lg hover:text-white transition-colors py-2'>
+                  <a href='#' className='block text-white text-lg hover:scale-95 transition-transform py-2'>
                     Connect a wallet
                   </a>
                 </li>
