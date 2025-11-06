@@ -1,6 +1,6 @@
-import AvatarIcon from '../assets/Avatar.svg';
-import RocketIcon from '../assets/RocketLaunch.svg';
-import SpaceWalking from '../assets/SpaceWalking.svg';
+import AvatarIcon from '../assets/icons/Avatar.svg';
+import RocketIcon from '../assets/icons/RocketLaunch.svg';
+import SpaceWalking from '../assets/images/SpaceWalking.svg';
 
 const HeroSection = () => {
   return (
