@@ -1,5 +1,3 @@
-import React from 'react';
-
 const FeaturedDrop = () => {
   return (
     <section className='bg-gradient-to-r from-purple-700 via-purple-500 to-pink-500 py-16 text-center text-white'>

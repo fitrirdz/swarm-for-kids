@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Newsletter = () => {
   return (
     <section className='py-16 max-w-5xl mx-auto px-6 bg-gray-800 rounded-2xl flex flex-col md:flex-row items-center gap-6'>

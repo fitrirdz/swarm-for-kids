@@ -1,5 +1,3 @@
-import React from 'react';
-
 const TrendingCollection = () => {
   return (
     <section className='py-16 max-w-7xl mx-auto px-6'>

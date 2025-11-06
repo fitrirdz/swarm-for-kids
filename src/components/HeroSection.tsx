@@ -1,4 +1,3 @@
-import React from 'react';
 import AvatarIcon from '../assets/Avatar.svg';
 import RocketIcon from '../assets/RocketLaunch.svg';
 import SpaceWalking from '../assets/SpaceWalking.svg';
