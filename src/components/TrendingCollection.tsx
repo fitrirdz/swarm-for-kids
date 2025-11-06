@@ -2,7 +2,7 @@ const TrendingCollection = () => {
   return (
     <section className='py-16 max-w-7xl mx-auto px-6'>
       <h2 className='text-2xl font-bold mb-2'>Trending Collection</h2>
-      <p className='text-gray-400 mb-8'>
+      <p className='mb-8'>
         Checkout our weekly updated trending collection.
       </p>
       <div className='grid md:grid-cols-3 gap-8'>
@@ -22,7 +22,7 @@ const TrendingCollection = () => {
               <img src='/thumb3.png' alt='' className='w-1/3 rounded-lg' />
             </div>
             <h3 className='font-semibold'>DSGN Animals</h3>
-            <p className='text-gray-400 text-sm'>@MrFox</p>
+            <p className='text-sm'>@MrFox</p>
           </div>
         ))}
       </div>

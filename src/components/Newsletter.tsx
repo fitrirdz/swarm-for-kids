@@ -1,4 +1,4 @@
-const Newsletter = () => {
+const NewsLetter = () => {
   return (
     <section className='py-16 max-w-5xl mx-auto px-6 bg-gray-800 rounded-2xl flex flex-col md:flex-row items-center gap-6'>
       <img
@@ -26,4 +26,4 @@ const Newsletter = () => {
   );
 };
 
-export default Newsletter;
+export default NewsLetter;

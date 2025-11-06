@@ -4,7 +4,7 @@ import SpaceWalking from '../assets/SpaceWalking.svg';
 
 const HeroSection = () => {
   return (
-    <section className='mx-auto flex flex-col lg:flex-row items-center gap-8 px-40 py-20'>
+    <section className='mx-auto flex flex-col lg:flex-row items-center gap-8 py-20'>
       <div className='flex-1 space-y-6 w-[510px]'>
         <h1 className='text-[5.23vw] font-semibold leading-tight'>
           Discover Digital Art & Collect NFTs
